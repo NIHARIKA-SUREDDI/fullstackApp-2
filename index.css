@@ -1,0 +1,30 @@
+#footer{
+    position: absolute;
+    bottom: 0; 
+    width: 100%;
+    background-color: rgb(29, 209, 222);
+    height: 3rem;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    
+  }
+  #main{
+    text-align: center;
+  }
+  
+  
+
+#nav-container a {
+    background-color: rgb(29, 209, 222);
+    color: white;
+   display: flex;
+   flex-direction: row;
+   
+    
+}
+
+#nav-container a:hover {
+    background-color: rgb(24, 190, 200);
+}
+

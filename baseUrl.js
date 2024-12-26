@@ -1,0 +1,1 @@
+export const baseUrl = "https://cautious-sand-sailfish.glitch.me/user";
