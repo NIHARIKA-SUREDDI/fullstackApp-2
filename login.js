@@ -1,10 +1,8 @@
 import { baseUrl } from "./baseUrl.js";
 
 
-
-
 let form = document.getElementById("form");
-form.addEventListener("submit", function () {
+form.addEventListener("submit", function (event) {
   event.preventDefault();
   let email = form.email.value;
   let password = form.password.value;
@@ -19,7 +17,7 @@ form.addEventListener("submit", function () {
         if(user[0].password == password){
             alert("Login Sucess...");
             localStorage.setItem("loginData", JSON.stringify(user[0]))
-            window.location.href = "todos.html"
+            
         }else{
             alert("Password is wrong, please login with right password")
         }

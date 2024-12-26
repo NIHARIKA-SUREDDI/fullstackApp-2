@@ -8,7 +8,7 @@
     align-items: center;
     gap: 20px;
     color: rgb(82, 192, 214);
-    background-color: rgb(228, 200, 253);
+    background-color: rgb(165, 226, 231);
     padding: 20px;
     text-align: center;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -43,6 +43,6 @@ select{
 }
 
 #submit:hover{
-    background-color:rgb(165, 80, 245) ;
+    background-color:rgb(125, 83, 164) ;
   transition:  background-color 1s ease;
 }
