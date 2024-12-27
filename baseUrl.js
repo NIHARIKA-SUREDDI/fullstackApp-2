@@ -1,1 +1,1 @@
-export const baseUrl = "https://spurious-airy-frog.glitch.me/";
+export const baseUrl = "https://spurious-airy-frog.glitch.me/"; 
