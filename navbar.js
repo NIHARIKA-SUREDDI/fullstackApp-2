@@ -5,8 +5,6 @@ const navbar = () => {
   
           <a href="signup.html"> Signup </a>
           <a href="login.html"> Login </a>
-         
-       
         
          </div>
       </div>`;
@@ -15,5 +13,5 @@ const navbar = () => {
       
   };
   
-  navbar()
+navbar();
   

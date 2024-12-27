@@ -1,6 +1,6 @@
 #form{
     width: 30%;
-    height: 400px;
+    height: 350px;
     margin: 3rem auto;
     display: flex;
     flex-direction: column;
@@ -9,10 +9,11 @@
     gap: 20px;
     color: rgb(82, 192, 214);
     background-color: rgb(165, 226, 231);
-    padding: 20px;
+    padding: 15px;
     text-align: center;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 1.2rem;
+    border-radius: 8px;
    
 
 }
